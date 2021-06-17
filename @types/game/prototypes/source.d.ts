@@ -1,5 +1,5 @@
 declare module "game/prototypes" {
-  export interface Source extends RoomObject {
+  export interface Source extends RoomPosition {
     readonly prototype: Source;
 
     energy: number;
